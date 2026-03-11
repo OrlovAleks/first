@@ -135,7 +135,7 @@ const FilterSidebar = ({ filters, onChange, onApply, resultCount }: FilterSideba
       </div>
 
       {/* Scrollable filters */}
-      <div className="flex-1 overflow-y-auto p-4" style={{ maxHeight: "calc(100vh - 430px)" }}>
+      <div className="flex-1 overflow-y-auto p-4" style={{ maxHeight: "calc(100vh - 330px)" }}>
         <Accordion type="multiple" defaultValue={["price", "brand"]} className="space-y-0">
           {/* Цена */}
           <AccordionItem value="price">
